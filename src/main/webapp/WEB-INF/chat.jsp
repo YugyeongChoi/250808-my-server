@@ -7,10 +7,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-<head>
-    <title>Title</title>
-</head>
 <body>
-
+<h2>AI 채팅을 합시다!</h2>
 </body>
 </html>
