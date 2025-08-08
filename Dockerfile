@@ -12,5 +12,5 @@ RUN mvn -q -e -B clean package -DskipTests
 # Tomcat 배포 스테이지
 FROM tomcat:10.1-jdk17-temurin
 COPY --from=builder /app/target/*.war /usr/local/tomcat/webapps/ROOT.war
-EXPOSE 8080
+EXPOSE 8083
 CMD ["catalina.sh", "run"]
